@@ -12,7 +12,7 @@ export default function NewIncident(){
     const [value, setValue] = useState('');
     const history = useHistory();
 
-    async function handleNewIncident(e){
+    async function handleNewIncident(e){ 
         e.preventDefault();
 
         const data = {title,description,value};
